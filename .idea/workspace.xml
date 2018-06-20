@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e4890db-22a7-4d71-ae4b-c9444e4dc936" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FaceDetect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0029.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0006.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0007.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0008.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0009.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aligned-images/scarlet_johansson/scarlet_johansson_0010.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/find-people/images.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/openface/nn4.def.lua" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/openface/nn4.small2.def.lua" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0004.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0005.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/scarlet_johansson/scarlet_johansson_0010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/annotate-image.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/check-links.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/create-train-val-split.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/detect-outliers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/email-broken-links.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/print-network-table.lua" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/profile-network.lua" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/profile-pipeline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/prune-dataset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/tsne.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0001.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0001.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0002.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0002.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0003.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0003.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0004.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0004.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0005.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0006.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0006.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0007.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0007.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0008.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0008.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0009.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0009.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0010.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0010.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0011.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0011.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0012.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0012.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0013.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0013.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0014.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0014.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0015.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0016.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0016.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0017.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0017.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0018.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0018.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0019.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0019.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0020.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0020.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0021.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0021.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0022.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0022.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0023.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0023.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0024.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0024.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0025.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0025.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0026.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0026.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0027.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0027.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0028.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0028.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0030.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0030.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0031.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0031.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0032.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0032.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0033.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0033.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0034.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0034.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0035.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0035.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0036.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0036.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0037.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0037.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0038.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0038.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0039.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0039.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0040.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0040.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0041.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0041.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0042.png" afterPath="$PROJECT_DIR$/aligned-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0042.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aligned-images/cache.t7" afterPath="$PROJECT_DIR$/aligned-images/cache.t7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0001.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0002.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0002.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0003.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0004.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0004.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0005.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0005.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0006.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0006.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0007.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0007.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0008.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0008.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0009.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0009.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0010.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0010.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0011.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0012.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0013.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0013.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0014.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0014.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0015.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0016.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0016.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0017.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0017.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0018.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0018.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0019.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0019.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0020.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0020.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0021.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0021.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0022.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0022.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0023.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0023.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0024.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0024.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0025.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0025.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0026.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0026.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0027.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0027.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0028.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0028.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0029.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0029.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0030.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0030.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0031.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0031.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0032.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0032.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0033.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0033.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0034.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0034.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0035.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0035.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0036.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0036.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0037.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0037.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0038.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0038.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0039.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0039.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0040.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0040.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0041.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0041.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0042.jpg" afterPath="$PROJECT_DIR$/training-images/Arnold_Schwarzenegger/Arnold_Schwarzenegger_0042.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated-embeddings/classifier.pkl" afterPath="$PROJECT_DIR$/generated-embeddings/classifier.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated-embeddings/labels.csv" afterPath="$PROJECT_DIR$/generated-embeddings/labels.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated-embeddings/reps.csv" afterPath="$PROJECT_DIR$/generated-embeddings/reps.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/align-dlib.py" afterPath="$PROJECT_DIR$/util/align-dlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/classifier.py" afterPath="$PROJECT_DIR$/util/classifier.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="align-dlib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="44" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+                <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="154" column="43" lean-forward="false" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+              <folding>
+                <element signature="e#680#691#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>r[0]</find>
+      <find>getRep</find>
+      <find>reps.append</find>
+      <find>args.class</find>
+      <find>GridSearchSvm</find>
+      <find>args.imgs</find>
+      <find>imgs</find>
+      <find>GaussianNB</find>
+      <find>labelsNum</find>
+      <find>multi</find>
+      <find>cuda</find>
+      <find>net</find>
+      <find>LinearSvm</find>
+      <find>SVC</find>
+      <find>inputDir</find>
+      <find>iterImgs</find>
+      <find>getcwd()</find>
+      <find>exit</find>
+      <find>verbo</find>
+      <find>exce</find>
+      <find>le</find>
+      <find>ldaDim</find>
+      <find>workDir</find>
+      <find>write</find>
+      <find>fName</find>
+      <find>numImages</find>
+      <find>represent</find>
+      <find>classifierModel</find>
+      <find>--networkModel</find>
+      <find>embeddings</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/util/downloader.py" />
+        <option value="$PROJECT_DIR$/FaceDetect.py" />
+        <option value="$PROJECT_DIR$/util/classifier.py" />
+        <option value="$PROJECT_DIR$/util/align-dlib.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="189" />
+    <option name="y" value="135" />
+    <option name="width" value="1652" />
+    <option name="height" value="899" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Face-Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Face-Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Face-Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Face-Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Face-Detect" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e4890db-22a7-4d71-ae4b-c9444e4dc936" name="Default" comment="" />
+      <created>1523727140781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523727140781</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="189" y="135" width="1652" height="899" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12832929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="26" lean-forward="false" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="116" column="31" lean-forward="true" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/downloader.py" />
+    <entry file="file://$PROJECT_DIR$/FaceDetect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="154" column="43" lean-forward="false" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+          <folding>
+            <element signature="e#680#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/align-dlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="44" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1529538349732" expanded="true" signature="6930:7145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
