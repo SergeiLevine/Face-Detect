@@ -1,8 +1,7 @@
 # FaceDetect
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Einstein-formal_portrait-35.jpg/220px-Einstein-formal_portrait-35.jpg" width="220" height="285">
 
-<img src="https://drive.google.com/open?id=1qrGGlN6JQzThQsATipq7nIc6ojFhEfok" width="555" height="451">
+<img src="https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png" width="555" height="451">
 
 
 ## FaceDetect - An aplication for face detection and recognition based on computer vision and machine learning.
