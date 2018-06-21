@@ -4,7 +4,7 @@
 <img src="https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png" width="555" height="451">
 
 
-## FaceDetect - An aplication for face detection and recognition based on computer vision and machine learning.
+## FaceDetect - An aplication for face detection and recognition based on computer vision and deep learning.
 
 - This application is development as part of 4-th year final project software engineering program at [Azrieli College of Engineering](http://www.jce.ac.il/).
 
